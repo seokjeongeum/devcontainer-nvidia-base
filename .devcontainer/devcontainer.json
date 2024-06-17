@@ -3,7 +3,7 @@
   "image": "nvidia/cuda:11.8.0-devel-ubuntu22.04", 
   "runArgs": [
     "--gpus=all",
-    "--shm-size=10.24gb"
+    "--shm-size=10gb"
   ],
   "remoteEnv": {
     "PATH": "${containerEnv:PATH}:/usr/local/cuda/bin",
