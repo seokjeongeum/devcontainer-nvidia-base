@@ -27,6 +27,6 @@
     }
   },
   "mounts": [
-  "source=/mnt/sdb,target=/,type=bind,consistency=cached"
+  "source=/mnt/sdb,target=/home,type=bind,consistency=cached"
 ]
 }
