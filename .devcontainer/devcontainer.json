@@ -25,5 +25,8 @@
         "ms-python.vscode-pylance"
       ]
     }
-  }
+  },
+  "mounts": [
+  "source=/mnt/sdb,target=/,type=bind,consistency=cached"
+]
 }
